@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto", sans-serif 
-    second-family: "Raleway", sans-serif;
     color: #434455
+    background-color: #fff
+
 }
 ul,ol {list-style-type: none;}
 a {text-decoration: none;}
@@ -19,7 +20,7 @@ button {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px; 
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
@@ -41,6 +42,9 @@ color: #2e2f42;
 .menu-link:hover, .menu-link:focus {
 color: #404BBF;
 }
+.address {
+    font-style: normal;
+}
 .address-link {
 font-weight: 400;
 font-size: 16px;
@@ -60,7 +64,7 @@ color: #404BBF;
 .hero-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -106,29 +110,29 @@ color: #434455;
 }
 .section-title {
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
 background-color: #fff;
-width: 264px;
-height: 380px;
 }
 .team-image-title {
 font-weight: 500;
-font-size: 20px; 
+font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 color: #2e2f42;
 }
 .team-image-text {
 font-size: 16px; 
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 color: #434455;
 }
 /* #endregion Our Team */
