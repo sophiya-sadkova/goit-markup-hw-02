@@ -43,7 +43,9 @@ color: #2e2f42;
 color: #404BBF;
 }
 .address {
-    font-style: normal;
+font-style: normal;
+}
+.address-list {
 }
 .address-link {
 font-weight: 400;
